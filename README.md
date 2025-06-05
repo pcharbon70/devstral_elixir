@@ -126,14 +126,19 @@ This is an early-stage research project. Contributions are welcome, especially i
 - Elixir-specific evaluation metrics
 - Distributed training improvements
 
+### Acceptance Testing
+
+The primary acceptance testing for this project will be conducted through actual usage of the fine-tuned model in real coding environments. We believe that the true measure of success lies in how well the model performs when assisting developers with Elixir code generation, completion, and understanding tasks. Your feedback from using the model in production scenarios is invaluable - comments, suggestions, and experience reports are not just welcome but truly appreciated as they will guide the model's evolution and improvement.
+
 ## License
 
-[License details to be added]
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Documentation
 
 For detailed implementation plans and research, see:
 - [Fine-Tuning Strategy](research/devstral_fine_tuning_strategy.md)
 - [Educational Approach](research/devstral_fine_tuning_from_books.md)
+- [Educational Materials](research/devstral_fine_tuning_educational.md)
 
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc).
