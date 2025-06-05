@@ -10,6 +10,11 @@ DevstralElixir implements a comprehensive three-stage fine-tuning approach:
 2. **Stage 2**: Task-specific fine-tuning for code completion and generation  
 3. **Stage 3**: Book-based fine-tuning using structured educational content
 
+We extend our gratitude to the authors whose educational materials form the foundation of our book-based fine-tuning approach. Their comprehensive works on Elixir, Erlang/OTP, and the BEAM ecosystem provide the structured, pedagogical content essential for teaching our model idiomatic patterns and best practices.
+
+| Author | Book |
+|--------|------|
+
 ## Implementation Roadmap
 
 ### Phase 1: Foundation Infrastructure (Weeks 1-3)
@@ -50,6 +55,8 @@ DevstralElixir implements a comprehensive three-stage fine-tuning approach:
 - [ ] **Performance Optimization**: Kernel fusion and attention optimization
 - [ ] **Model Compression**: Knowledge distillation and pruning
 - [ ] **Production Hardening**: Security, validation, and disaster recovery
+
+For a detailed implementation plan, see [Detailed Implementation Plan](planning/detailed_implementation_plan.md).
 
 ## Key Features
 
@@ -126,10 +133,7 @@ This is an early-stage research project. Contributions are welcome, especially i
 ## Documentation
 
 For detailed implementation plans and research, see:
-- [Detailed Implementation Plan](planning/detailed_implementation_plan.md)
 - [Fine-Tuning Strategy](research/devstral_fine_tuning_strategy.md)
 - [Educational Approach](research/devstral_fine_tuning_from_books.md)
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/devstral_elixir>.
+Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc).
